@@ -1,0 +1,38 @@
+export const statsData = [
+  {
+    id: "years",
+    value: 10,
+    suffix: "+",
+    label: "Years of Loving Care",
+    sublabel: "Nurturing Vizag since 2014",
+    icon: "Clock",
+    color: "brand-coral",
+  },
+  {
+    id: "families",
+    value: 500,
+    suffix: "+",
+    label: "Happy Families",
+    sublabel: "Little graduates thriving today",
+    icon: "Heart",
+    color: "brand-teal",
+  },
+  {
+    id: "activities",
+    value: 16,
+    suffix: "+",
+    label: "Daily Learning Labs",
+    sublabel: "Hands-on play & sensory zones",
+    icon: "Sparkles",
+    color: "brand-honey",
+  },
+  {
+    id: "ratio",
+    value: 8,
+    prefix: "1:",
+    label: "Teacher–Child Ratio",
+    sublabel: "Personalized attention for every child",
+    icon: "Users",
+    color: "brand-sprout",
+  },
+];

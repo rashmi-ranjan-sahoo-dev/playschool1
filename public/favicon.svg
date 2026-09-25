@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#F26440"/>
+  <!-- Little Veda Blossoming Seed / Open Wings Motif -->
+  <path d="M32 16C28 24 22 28 14 30C22 34 26 40 28 50C31 42 35 38 42 36C36 33 33 26 32 16Z" fill="#FFFDF9"/>
+  <circle cx="44" cy="20" r="6" fill="#F7B801"/>
+  <circle cx="20" cy="20" r="4" fill="#0E7C7B"/>
+</svg>
