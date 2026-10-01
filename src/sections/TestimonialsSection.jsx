@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { SectionHeading } from '../components/common/SectionHeading';
 import { testimonialsData } from '../data/testimonials';
-import { Star, MapPin, CheckCircle, Heart, Quote } from 'lucide-react';
+import { Star, CheckCircle } from 'lucide-react';
 import { useGsap } from '../hooks/useGsap';
 
 /**
@@ -103,20 +103,13 @@ export function TestimonialsSection() {
                   </p>
 
                   {/* Parent & Child Info */}
-                  <div className="pt-3 border-t border-stone-100 flex items-center justify-between flex-wrap gap-2 mt-auto">
-                    <div>
-                      <h4 className="font-display font-black text-sm sm:text-base text-stone-900 leading-snug">
-                        {item.parentName}
-                      </h4>
-                      <p className="text-xs text-stone-500 font-medium">
-                        Parents of {item.childName} ({item.childClass})
-                      </p>
-                    </div>
-
-                    <div className="flex items-center gap-1 text-[11px] text-[#f57f25] bg-orange-50 px-2.5 py-1 rounded-full font-bold">
-                      <MapPin className="w-3 h-3 shrink-0" />
-                      <span className="truncate max-w-[130px]">{item.location}</span>
-                    </div>
+                  <div className="pt-3 border-t border-stone-100 mt-auto">
+                    <h4 className="font-display font-black text-sm sm:text-base text-stone-900 leading-snug">
+                      {item.parentName}
+                    </h4>
+                    <p className="text-xs text-stone-500 font-medium">
+                      Parents of {item.childName} ({item.childClass})
+                    </p>
                   </div>
                 </div>
               </div>

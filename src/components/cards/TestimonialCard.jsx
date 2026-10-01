@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '../common/Card';
-import { Star, MapPin, Quote } from 'lucide-react';
+import { Star, Quote } from 'lucide-react';
 
 export function TestimonialCard({ testimonial }) {
   return (
@@ -43,10 +43,6 @@ export function TestimonialCard({ testimonial }) {
           </span>
           <span className="text-xs text-brand-coral-600 font-medium">
             Parent of {testimonial.childName} ({testimonial.childClass})
-          </span>
-          <span className="flex items-center gap-1 text-[11px] text-brand-muted mt-0.5">
-            <MapPin className="w-3 h-3 text-brand-muted" />
-            <span className="truncate">{testimonial.location}</span>
           </span>
         </div>
       </div>
